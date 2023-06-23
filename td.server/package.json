@@ -1,6 +1,6 @@
 {
   "name": "threat-dragon-server",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "private": true,
   "scripts": {
     "build": "npm-run-all clean:dist transpile",
@@ -68,7 +68,6 @@
     "sinon-chai": "^3.7.0",
     "supertest": "^4.0.2"
   },
-
   "overrides": {
     "node-ipc": ">=10.1.7",
     "debug@<3.1.0": ">=4.3.4",
