@@ -54,6 +54,7 @@ const store = {
     outOfScope: false,
     reasonOutOfScope: '',
     isALog: false,
+    storesPII: false,
     storesCredentials: false,
     isEncrypted: false,
     isSigned: false,

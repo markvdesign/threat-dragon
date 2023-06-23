@@ -126,6 +126,7 @@ const eng = {
             reasonOutOfScope: 'Reason for out of scope',
             privilegeLevel: 'Privilege Level',
             isALog: 'Is a Log',
+            storesPII: 'Stores PII',
             storesCredentials: 'Stores Credentials',
             isEncrypted: 'Encrypted',
             isSigned: 'Signed',

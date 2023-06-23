@@ -17,6 +17,7 @@
 
             Store:
                 - isALog
+                - storesPII
                 - storesCredentials
                 - isEncrypted
                 - isSigned
@@ -114,6 +115,17 @@
                             id="isalog"
                             v-model="cellRef.data.isALog"
                         >{{ $t('threatmodel.properties.isALog') }}</b-form-checkbox>
+                    </b-form-group>
+                </b-col>
+
+                <b-col v-if="cellRef.data.type === 'tm.Store'">
+                    <b-form-group
+                        label-cols="auto"
+                        id="isalog-group">
+                        <b-form-checkbox
+                            id="storesPII"
+                            v-model="cellRef.data.storesPII"
+                        >{{ $t('threatmodel.properties.storesPII') }}</b-form-checkbox>
                     </b-form-group>
                 </b-col>
 
